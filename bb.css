@@ -31,7 +31,7 @@ color: white;
     color: white;
 }
 #gg{
-    display: block;
+   
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -67,7 +67,7 @@ header{
     justify-content: space-between;
     font-size: large;
 }
-.start{
+.o-mnie{
   color: black;
   background-color: white;
   border: 1px solid black;
@@ -76,7 +76,7 @@ header{
   width:100px;
   text-align: center;
 }
-.start:hover{
+.o-mnie:hover{
     color: white;
     background-color: black;
     border: 1px solid white;
