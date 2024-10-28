@@ -1,5 +1,5 @@
 body{
-background-color:aqua;    
+background: linear-gradient(to right, green, red);    
 }
 h2{
 text-align: center; 
@@ -7,7 +7,7 @@ color: white;
 }
 p{
     text-align: center;
-   
+    color: white;
 }
 img{
     display: block;
@@ -22,23 +22,31 @@ color: white;
     text-align: center;
     color: white;
 }
-#ff{
+.ff{
     
     color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
 }
 #gg{
-   
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
      text-decoration: none;
      color: white; 
-    
  
        
 }
-#rr{
+.rr{
     text-align: center;
+
+    a{color: white;
+    
+        text-decoration: none;
+    }
 }
 h1{
     color: white;
@@ -48,20 +56,10 @@ form{
     color: white;
 }
 
-table, th, td{
-    border-collapse: collapse;
-    width: 40%;
-    margin-left: 600px;
-    border: 1px solid pink;
-    color: white;
-    
-    
-}
-
 header{
     display: flex;
     justify-content: space-between;
-    font-size: large;
+   
 }
 .o-mnie{
   color: black;
@@ -71,13 +69,21 @@ header{
   height: 50px;
   width:100px;
   text-align: center;
-  text-decoration:none;
-
+  a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
 }
 .o-mnie:hover{
     color: white;
     background-color: black;
     border: 1px solid white;
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
 }
 .projekty{
     color: white;
@@ -88,14 +94,22 @@ header{
     height: 50px;
     width:100px;
     text-align: center;
-    text-decoration:none;
-
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
 
 }
 .projekty:hover{
     color: black;
     background-color: white;
     border: 1px solid black;
+    a{
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
 }
 .kontakt{
     color: black;
@@ -106,13 +120,23 @@ header{
     height: 50px;
     width:100px;
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
+    a{
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
 
 }
 .kontakt:hover{
     color: white;
     background-color: black;
     border: 1px solid white;
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
   }
 
 
