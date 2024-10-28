@@ -62,4 +62,59 @@ table, th, td{
     
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.start{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius:10px;
+  height: 50px;
+  width:100px;
+  text-align: center;
+}
+.start:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+.projekty{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin: 10px 10px 10px 10px;
+    border-radius:10px;
+    height: 50px;
+    width:100px;
+    text-align: center;
+
+}
+.projekty:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.kontakt{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    border-radius:10px;
+    height: 50px;
+    width:100px;
+    text-align: center;
+
+}
+.kontakt:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+  }
+body{
+    background-color: aqua;
+}
+
 
