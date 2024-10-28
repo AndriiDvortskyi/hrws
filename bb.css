@@ -71,6 +71,8 @@ header{
   height: 50px;
   width:100px;
   text-align: center;
+  text-decoration:none;
+
 }
 .o-mnie:hover{
     color: white;
@@ -86,6 +88,8 @@ header{
     height: 50px;
     width:100px;
     text-align: center;
+    text-decoration:none;
+
 
 }
 .projekty:hover{
@@ -102,6 +106,7 @@ header{
     height: 50px;
     width:100px;
     text-align: center;
+    text-decoration:none;
 
 }
 .kontakt:hover{
